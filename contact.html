@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Deji Logo.png" alt="Deji logo" class="logo" />
+        <nav class="main-nav">
+          <ul class="nav-links">
+            <li><a class="main-nav-link" href="index.html">About Me</a></li>
+            <li><a class="main-nav-link" href="register.html">Register</a></li>
+            <li><a class="main-nav-link" href="login.html">Login</a></li>
+            <li>
+              <a class="main-nav-link" href="calculator.html">Calculator</a>
+            </li>
+            <a href="contact.html" class="btn">Contact Me</a>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get in contact with me!</h2>
+              <p class="cta-text">
+                Do you have UI/UX design needs or a frontend development projects? Send me a message. 
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="johndoe@example.com"
+                    required
+                  />
+                </div>
+
+                <textarea name="message" id="message" rows="10"></textarea>
+
+                <div>
+                  <label for="select-where">Priority</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">High</option>
+                    <option value="youtube">Medium</option>
+                    <option value="podcast">Low</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form" type="submit">Submit</button>
+
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Deji"
+            ></div>
+          </div>
+
+        </div>
+      </section>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Deji Logo.png" alt="Deji logo" class="logo" />
+        <nav class="main-nav">
+          <ul class="nav-links">
+            <li><a class="main-nav-link" href="index.html">About Me</a></li>
+            <li><a class="main-nav-link" href="register.html">Register</a></li>
+            <li><a class="main-nav-link" href="login.html">Login</a></li>
+            <li>
+              <a class="main-nav-link" href="calculator.html">Calculator</a>
+            </li>
+            <a href="contact.html" class="btn">Contact Me</a>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Register</h2>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">First Name</label>
+                  <input
+                    id="firstName"
+                    type="firstName"
+                    placeholder="Deji"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="lastName">Last Name</label>
+                  <input
+                    id="lastName"
+                    type="lastName"
+                    placeholder="Hamzat"
+                    required
+                  />
+                </div>
+
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="none">Choose not to say</option>
+                </select>
+
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input
+                      id="number"
+                      type="numer"
+                      placeholder="1234567890"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="country">Country</label>
+                    <input
+                      id="country"
+                      type="country"
+                      placeholder="Nigeria"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="state">State/Province</label>
+                    <input
+                      id="state"
+                      type="state"
+                      placeholder="Ondo"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="username">Username</label>
+                    <input
+                      id="Deji"
+                      type="Deji"
+                      placeholder="Deji007"
+                      required
+                    />
+                  </div>
+
+                <button class="btn btn--form" type="submit">Register</button>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/Deji Logo.png" alt="Deji logo" class="logo" />
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a class="main-nav-link" href="index.html">About Me</a></li>
+          <li><a class="main-nav-link" href="register.html">Register</a></li>
+          <li><a class="main-nav-link" href="login.html">Login</a></li>
+          <li>
+            <a class="main-nav-link" href="calculator.html">Calculator</a>
+          </li>
+          <a href="contact.html" class="btn">Contact Me</a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="hero-heading">I'm Deji-David,</h1>
+            <p class="hero-desc">
+              a Product Designer who loves to craft memrable and seamless
+              experiences for users using super powers such as typography,
+              colours, grids and spacing.
+            </p>
+            <a href="contact.html" class="btn">Contact Me</a>
+          </div>
+          <div class="hero-img-box">
+            <img src="./assets/Deji.png" alt="image of Deji" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="container grid-2-cols">
+        <div class="text-box">
+          <img
+            src="./assets/Goals.png"
+            alt="arrow hitting it's target"
+            class="goal-img"
+          />
+          <div class="text-header">Goals</div>
+          <div class="text-desc">
+            I hope to become a better frontend engineer, using the available
+            resources in creating solutions to users problems.
+          </div>
+        </div>
+        <div class="text-box">
+          <img
+            src="./assets/Education.png"
+            alt="arrow hitting it's target"
+            class="goal-img"
+          />
+          <div class="text-header">Education</div>
+          <div class="text-desc">
+            Deji is an avid scholar, finishing with a Second-Class Upper from
+            the department of Anatomy, LAUTECH. He is cureently pursuing a
+            second degree in the prestigious LASU and hope to add AltSchool of
+            Engineering in a few months time.
+          </div>
+        </div>
+        <div class="text-box">
+          <img
+            src="./assets/Job.png"
+            alt="arrow hitting it's target"
+            class="goal-img"
+          />
+          <div class="text-header">Job</div>
+          <div class="text-desc">
+            As a Product Designer, Deji has worked with agencies within and out
+            of the country, shipping products that really helps users. Right
+            now, He is the Product Design Lead of one of the foremost financial
+            institutions in His Counrty, Nigeria.
+          </div>
+        </div>
+        <div class="text-box">
+          <img
+            src="./assets/Hobbies.png"
+            alt="arrow hitting it's target"
+            class="goal-img"
+          />
+          <div class="text-header">Hobbies</div>
+          <div class="text-desc">
+            Whenever Deji isn't designing, writing, preparing reports or coding,
+            He's busy surfing YouTube for good music as he is also a musician.
+            "Techie during the week, Musician during the weekends and a God
+            lover through it all".
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get in contact with me!</h2>
+              <p class="cta-text">
+                Do you have UI/UX design needs or a frontend development projects? Send me a message. 
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="johndoe@example.com"
+                    required
+                  />
+                </div>
+
+                <textarea name="message" id="message" rows="10"></textarea>
+
+                <div>
+                  <label for="select-where">Priority</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">High</option>
+                    <option value="youtube">Medium</option>
+                    <option value="podcast">Low</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form" type="submit">Submit</button>
+
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Deji"
+            ></div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>
